@@ -1,0 +1,33 @@
+{
+  "name": "voyage",
+  "version": "0.0.1",
+  "description": "Advanced HTTP Routing System for Node.js",
+  "main": "lib/voyage.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NEURS/voyage.git"
+  },
+  "keywords": [
+    "voyage",
+    "route",
+    "router",
+    "routing",
+    "http"
+  ],
+  "author": "Kevin J. Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NEURS/voyage/issues"
+  },
+  "homepage": "https://github.com/NEURS/voyage",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  }
+}
