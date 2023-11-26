@@ -7,11 +7,14 @@ import Navbar from "./components/navbar"
 import Register from "./Pages/register"
 import ContactUs from "./Pages/contactus"
 import Packages from "./Pages/packages"
+import { useLocation } from 'react-router-dom';
+
 
 const App = () => {
+  const location = useLocation();
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar currentPageLink={location.pathname}></Navbar>
 
       <Routes>
         <Route path="/" element={<Home />} />

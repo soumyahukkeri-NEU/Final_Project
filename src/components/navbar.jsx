@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ currentPageLink }) => {
     const regularLinkClassName = "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
     const highLightLinkClassName = "inline-flex items-center border-b-2 border-blue-500 px-1 pt-1 text-sm font-medium text-gray-900"
     return (
@@ -16,11 +16,11 @@ const Navbar = () => {
                 </Link>
               </div>
               <div className="hidden md:flex md:space-x-8 ">
-                <Link to="/" className={currentPageLink === '/destinations' ? highlighLinkClassName : regularLinkClassNmae}><b>Home</b></Link>
-                <Link to="/destination" className={currentPageLink === '/destinations' ? highlighLinkClassName : regularLinkClassNmae}><b>Top Destinations</b></Link>
-                <Link to="/packages" className={currentPageLink === '/destinations' ? highlighLinkClassName : regularLinkClassNmae}><b>Tour Packages</b></Link>
-                <Link to="/register" className={currentPageLink === '/destinations' ? highlighLinkClassName : regularLinkClassNmae}><b>Register</b></Link>
-                <Link to="/contactus" className={currentPageLink === '/destinations' ? highlighLinkClassName : regularLinkClassNmae}><b>Contact Us</b></Link>
+                <Link to="/" className={currentPageLink === '/' ? highLightLinkClassName : regularLinkClassName}><b>Home</b></Link>
+                <Link to="/destination" className={currentPageLink === '/destinations' ? highLightLinkClassName : regularLinkClassName}><b>Top Destinations</b></Link>
+                <Link to="/packages" className={currentPageLink === '/packages' ? highLightLinkClassName : regularLinkClassName}><b>Tour Packages</b></Link>
+                <Link to="/register" className={currentPageLink === '/register' ? highLightLinkClassName : regularLinkClassName}><b>Register</b></Link>
+                <Link to="/contactus" className={currentPageLink === '/contactus' ? highLightLinkClassName : regularLinkClassName}><b>Contact Us</b></Link>
               </div>
             </div>
             <div className="flex items-center">
