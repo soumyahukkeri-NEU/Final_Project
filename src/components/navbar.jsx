@@ -16,11 +16,11 @@ const Navbar = () => {
                 </Link>
               </div>
               <div className="hidden md:flex md:space-x-8 ">
-                <Link to="/" className={regularLinkClassName}><b>Home</b></Link>
-                <Link to="/destination" className={highLightLinkClassName}><b>Top Destinations</b></Link>
-                <Link to="/packages" className={regularLinkClassName}><b>Tour Packages</b></Link>
-                <Link to="/register" className={regularLinkClassName}><b>Register</b></Link>
-                <Link to="/contactus" className={regularLinkClassName}><b>Contact Us</b></Link>
+                <Link to="/" className={currentPageLink === '/destinations' ? highlighLinkClassName : regularLinkClassNmae}><b>Home</b></Link>
+                <Link to="/destination" className={currentPageLink === '/destinations' ? highlighLinkClassName : regularLinkClassNmae}><b>Top Destinations</b></Link>
+                <Link to="/packages" className={currentPageLink === '/destinations' ? highlighLinkClassName : regularLinkClassNmae}><b>Tour Packages</b></Link>
+                <Link to="/register" className={currentPageLink === '/destinations' ? highlighLinkClassName : regularLinkClassNmae}><b>Register</b></Link>
+                <Link to="/contactus" className={currentPageLink === '/destinations' ? highlighLinkClassName : regularLinkClassNmae}><b>Contact Us</b></Link>
               </div>
             </div>
             <div className="flex items-center">
