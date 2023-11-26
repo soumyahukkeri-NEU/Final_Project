@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+    const regularLinkClassName = "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+    const highLightLinkClassName = "inline-flex items-center border-b-2 border-blue-500 px-1 pt-1 text-sm font-medium text-gray-900"
     return (
         
         <nav className="bg-white shadow">
@@ -14,11 +16,11 @@ const Navbar = () => {
                 </Link>
               </div>
               <div className="hidden md:flex md:space-x-8 ">
-                <Link to="/" className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"><b>Home</b></Link>
-                <Link to="/destination" className="inline-flex items-center border-b-2 border-blue-500 px-1 pt-1 text-sm font-medium text-gray-900"><b>Top Destinations</b></Link>
-                <Link to="/" className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"><b>Tour Packages</b></Link>
-                <Link to="/" className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"><b>Register</b></Link>
-                <Link to="/" className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"><b>Contact Us</b></Link>
+                <Link to="/" className={regularLinkClassName}><b>Home</b></Link>
+                <Link to="/destination" className={highLightLinkClassName}><b>Top Destinations</b></Link>
+                <Link to="/packages" className={regularLinkClassName}><b>Tour Packages</b></Link>
+                <Link to="/register" className={regularLinkClassName}><b>Register</b></Link>
+                <Link to="/contactus" className={regularLinkClassName}><b>Contact Us</b></Link>
               </div>
             </div>
             <div className="flex items-center">
