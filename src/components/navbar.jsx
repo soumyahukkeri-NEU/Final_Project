@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from '../assets/logo.png';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -9,9 +9,9 @@ const Navbar = () => {
           <div className="flex h-28 justify-between">
             <div className="flex">
               <div className="flex flex-shrink-0 items-center mx-auto mr-40">
-                <a href="index.html">
-                  <img className="h-48 w-auto" src="logo.png" alt="Voyage Logo"/>
-                </a>
+                <Link to="/">
+                  <img className="h-48 w-auto" src="public/assets/logo.png" alt="Voyage Logo"/>
+                </Link>
               </div>
               <div className="hidden md:flex md:space-x-8 ">
                 <a href="index.html" className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"><b>Home</b></a>
