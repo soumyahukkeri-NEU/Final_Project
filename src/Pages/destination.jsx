@@ -1,7 +1,7 @@
-const Home = () => {
+const Destination = () => {
     return (
       <div>Top Destinations</div>
     );
   };
   
-  export default Home;
+  export default Destination;

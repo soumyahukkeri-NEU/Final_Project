@@ -1,7 +1,7 @@
-const Home = () => {
+const Packages = () => {
     return (
       <div>Tour Packages</div>
     );
   };
   
-  export default Home;
+  export default Packages;
