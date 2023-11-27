@@ -8,6 +8,7 @@ import Register from "./Pages/register"
 import ContactUs from "./Pages/contactus"
 import Packages from "./Pages/packages"
 import { useLocation } from 'react-router-dom';
+import Login from "./Pages/login"
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/packages" element={<Packages />} />
         <Route path="/register" element={<Register />} />
         <Route path="/contactus" element={<ContactUs />} />
+        <Route path="/login" element={<Login />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

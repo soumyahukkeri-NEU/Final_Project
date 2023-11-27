@@ -25,11 +25,11 @@ const Navbar = ({ currentPageLink }) => {
             </div>
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <a href="login.html" target="_blank">
+                <Link to="/login" target="_blank">
                   <button type="button" className="relative inline-flex items-center gap-x-1.5 rounded-md bg-blue-600 px-8 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                       Login
                   </button>
-                </a>
+                </Link>
                 
               </div>
               
