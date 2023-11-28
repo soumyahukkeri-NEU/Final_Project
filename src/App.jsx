@@ -9,6 +9,7 @@ import ContactUs from "./Pages/contactus"
 import Packages from "./Pages/packages"
 import { useLocation } from 'react-router-dom';
 import Login from "./Pages/login"
+import Banner from "./components/Banner"
 
 
 const App = () => {
@@ -16,6 +17,8 @@ const App = () => {
   return (
     <>
       <Navbar currentPageLink={location.pathname}></Navbar>
+      <br></br>
+      <Banner></Banner>
 
       <Routes>
         <Route path="/" element={<Home />} />
