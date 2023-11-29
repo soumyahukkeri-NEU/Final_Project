@@ -1,4 +1,5 @@
 import Text from "../components/text";
+
 const Home = () => {
     return (
       <div>
