@@ -2,6 +2,9 @@ import { Link, Route, Routes } from "react-router-dom"
 import Home from "./Pages/home"
 import About from "./Pages/about"
 import Destination from "./Pages/destination"
+import Maldives from "./Pages/Maldives"
+import Paris from "./Pages/paris"
+import Iceland from "./Pages/iceland"
 import NotFound from "./Pages/NotFound"
 import Navbar from "./components/navbar"
 import Register from "./Pages/register"
@@ -24,6 +27,9 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/destination" element={<Destination />} />
+        <Route path="/maldives" element={<Maldives />} />
+        <Route path="/iceland" element={<Iceland />} />
+        <Route path="/paris" element={<Paris />} />
         <Route path="/packages" element={<Packages />} />
         <Route path="/register" element={<Register />} />
         <Route path="/contactus" element={<ContactUs />} />
