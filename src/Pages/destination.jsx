@@ -11,19 +11,19 @@ const Destination = () => {
         </div>
         
         <div className="mt-10 flex items-center gap-x-6">
-          <AllLink to="/maldives"  className="text-sm font-medium text-blue-600">
+          <AllLink to="/destination/maldives"  className="text-sm font-medium text-blue-600">
               Learn More 
           </AllLink>
         </div>
 
         <div className="mt-10 flex items-center gap-x-6">
-          <AllLink to="/iceland"  className="text-sm font-medium text-blue-600">
+          <AllLink to="/destination/iceland"  className="text-sm font-medium text-blue-600">
               Learn More 
           </AllLink>
         </div>
 
         <div className="mt-10 flex items-center gap-x-6">
-          <AllLink to="/paris"  className="text-sm font-medium text-blue-600">
+          <AllLink to="/destination/paris"  className="text-sm font-medium text-blue-600">
               Learn More 
           </AllLink>
         </div>

@@ -22,14 +22,15 @@ const App = () => {
       <Navbar currentPageLink={location.pathname}></Navbar>
       <br></br>
       <Banner></Banner>
+      
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/destination" element={<Destination />} />
-        <Route path="/maldives" element={<Maldives />} />
-        <Route path="/iceland" element={<Iceland />} />
-        <Route path="/paris" element={<Paris />} />
+        <Route path="/destination/maldives" element={<Maldives />} />
+        <Route path="/destination/iceland" element={<Iceland />} />
+        <Route path="/destination/paris" element={<Paris />} />
         <Route path="/packages" element={<Packages />} />
         <Route path="/register" element={<Register />} />
         <Route path="/contactus" element={<ContactUs />} />

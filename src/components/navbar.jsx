@@ -17,7 +17,7 @@ const Navbar = ({ currentPageLink }) => {
               </div>
               <div className="hidden md:flex md:space-x-8 ">
                 <Link to="/" className={currentPageLink === '/' ? highLightLinkClassName : regularLinkClassName}><b>Home</b></Link>
-                <Link to="/destination" className={currentPageLink === '/destination' ? highLightLinkClassName : regularLinkClassName}><b>Top Destinations</b></Link>
+                <Link to="/destination" className={currentPageLink.includes('destination') ? highLightLinkClassName : regularLinkClassName}><b>Top Destinations</b></Link>
                 <Link to="/packages" className={currentPageLink === '/packages' ? highLightLinkClassName : regularLinkClassName}><b>Tour Packages</b></Link>
                 <Link to="/register" className={currentPageLink === '/register' ? highLightLinkClassName : regularLinkClassName}><b>Register</b></Link>
                 <Link to="/contactus" className={currentPageLink === '/contactus' ? highLightLinkClassName : regularLinkClassName}><b>Contact Us</b></Link>
