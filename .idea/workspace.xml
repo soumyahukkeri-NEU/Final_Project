@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4f487cd-d5cc-482b-a825-1925adc94918" name="Changes" comment="" />
+    <list default="true" id="b4f487cd-d5cc-482b-a825-1925adc94918" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/alaska.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/canyon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chicago.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/china.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/herosection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iceland1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icelandDay1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icelandDay2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icelandDay3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main_attraction_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main_attraction_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main_attraction_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maldives.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maldives1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maldivesDay1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maldivesDay2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maldivesDay3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/northern lights.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paris.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parisDay3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prague.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/santorini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singapore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/switzerland.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tajmahal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topDestination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topDestination1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topDestination2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/topDestination3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tourpackages.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vegas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/venice.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +52,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2Z01qk8nSO9rW3neA2DmqPIKfni" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,6 +74,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "settings.nodejs",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -50,10 +87,15 @@
       <option name="presentableId" value="Default" />
       <updated>1701544376467</updated>
       <workItem from="1701544377795" duration="1051000" />
+      <workItem from="1701806704615" duration="374000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
