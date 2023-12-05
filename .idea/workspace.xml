@@ -5,41 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4f487cd-d5cc-482b-a825-1925adc94918" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/alaska.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/canyon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chicago.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/china.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/herosection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iceland1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icelandDay1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icelandDay2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icelandDay3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main_attraction_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main_attraction_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main_attraction_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/maldives.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/maldives1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/maldivesDay1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/maldivesDay2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/maldivesDay3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/northern lights.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paris.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parisDay3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prague.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/santorini.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singapore.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/switzerland.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tajmahal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topDestination.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topDestination1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topDestination2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/topDestination3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tourpackages.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vegas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/venice.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/herosection.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/herosection.jsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +46,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="herosection.jsx" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="herosection.jsx" working-dir="$PROJECT_DIR$/src/Pages">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -87,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701544376467</updated>
       <workItem from="1701544377795" duration="1051000" />
-      <workItem from="1701806704615" duration="374000" />
+      <workItem from="1701806704615" duration="1880000" />
     </task>
     <servers />
   </component>
