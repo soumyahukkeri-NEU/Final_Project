@@ -1,5 +1,6 @@
 import Text from "../components/text";
 import AllLink from "../components/link";
+import Footer from "../components/footer";
 
 const Destination = () => {
     return (
@@ -27,6 +28,8 @@ const Destination = () => {
               Learn More 
           </AllLink>
         </div>
+
+        <Footer></Footer>
   </div>
     );
   };

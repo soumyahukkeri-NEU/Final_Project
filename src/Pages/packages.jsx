@@ -1,6 +1,16 @@
+import Footer from "../components/footer";
+
 const Packages = () => {
     return (
-      <div>Tour Packages</div>
+      <div>
+        <div>Tour Packages</div>
+        
+        <Footer></Footer>
+
+
+
+      </div>
+      
     );
   };
   

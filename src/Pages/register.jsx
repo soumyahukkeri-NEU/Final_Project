@@ -1,6 +1,11 @@
+import Footer from "../components/footer";
+
 const Register = () => {
     return (
-      <div>Register page</div>
+      <div>Register page
+
+        <Footer></Footer>
+      </div>
     );
   };
   

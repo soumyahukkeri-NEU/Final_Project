@@ -13,6 +13,7 @@ import Packages from "./Pages/packages"
 import { useLocation } from 'react-router-dom';
 import Login from "./Pages/login"
 import Banner from "./components/Banner"
+import Footer from "./components/footer"
 
 
 const App = () => {

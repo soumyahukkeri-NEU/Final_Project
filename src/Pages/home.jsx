@@ -2,6 +2,7 @@ import React from "react";
 import Text from "../components/text";
 import AllLink from "../components/link";
 import Indeximage from "../components/indeximage";
+import Footer from "../components/footer";
 
 const Home = () => {
     return (
@@ -53,7 +54,14 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        <div>
+          <Footer></Footer>
+        </div>
+
+        
       </div>
+      
     );
   };
   
