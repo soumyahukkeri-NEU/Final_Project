@@ -6,6 +6,7 @@ import Footer from "../components/footer";
 
 const Home = () => {
   return (
+    <>
     <div className="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:pt-32">
       <div className="max-w-2xl mx-auto gap-x-14 lg:flex lg:max-w-none lg:items-center">
 
@@ -15,19 +16,14 @@ const Home = () => {
             title2="Your Journey, Our Passion"
             text="We believe in the power of exploration, the thrill of adventure, and the magic of discovering new horizons. Join us as we embark on a voyage like no other, where every step is a story, and every moment is an unforgettable memory. Let's make your journey extraordinary, together!" />
 
-          <div className="mt-10 flex items-center gap-x-6">
-            <AllLink
-              to="/destination"
-              className="text-sm font-semibold leading-6 text-gray-900"
-            >
-              Get Started <span aria-hidden="true">→</span>
+               <div className="mt-10 flex items-center gap-x-6">
+        
                   <AllLink 
                       to="/destination" 
                       className="text-sm font-semibold leading-6 text-gray-900"
                   >
                       Get Started <span aria-hidden="true">→</span>
                 </AllLink>
-                </div>
               </div>
 
               <div class="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
@@ -53,17 +49,15 @@ const Home = () => {
                   </div>
               </div>
               
-            </div>
-          </div>
         </div>
-
-        <div>
-          <Footer></Footer>
-        </div>
-
-        
       </div>
-      
+    </div>
+
+    <div>
+      <Footer></Footer>
+    </div>
+    </>
+        
     );
   };
   
