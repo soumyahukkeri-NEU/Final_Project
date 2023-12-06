@@ -5,41 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4f487cd-d5cc-482b-a825-1925adc94918" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/herosection.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/alaska.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/canyon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chicago.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/china.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iceland1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icelandDay1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icelandDay2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icelandDay3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_attraction_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_attraction_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_attraction_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maldives.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maldives1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maldivesDay1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maldivesDay2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maldivesDay3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/northern lights.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paris.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parisDay3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prague.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/santorini.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singapore.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/switzerland.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tajmahal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topDestination.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topDestination1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topDestination2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topDestination3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tourpackages.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vegas.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/venice.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +60,7 @@
       <updated>1701544376467</updated>
       <workItem from="1701544377795" duration="1051000" />
       <workItem from="1701806704615" duration="2217000" />
-      <workItem from="1701816240588" duration="742000" />
+      <workItem from="1701816240588" duration="962000" />
     </task>
     <servers />
   </component>

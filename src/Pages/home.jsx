@@ -5,20 +5,22 @@ import Indeximage from "../components/indeximage";
 import Footer from "../components/footer";
 
 const Home = () => {
-    return (
-      <div>
-        <div class="overflow-hidden">
-          <div class="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32">
-            <div class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
-            
-              <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-                <Text 
-                    title1="Voyage"
-                    title2="Your Journey, Our Passion"
-                    text="We believe in the power of exploration, the thrill of adventure, and the magic of discovering new horizons. Join us as we embark on a voyage like no other, where every step is a story, and every moment is an unforgettable memory. Let's make your journey extraordinary, together!"
-                  />
-              
-                <div className="mt-10 flex items-center gap-x-6">
+  return (
+    <div className="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:pt-32">
+      <div className="max-w-2xl mx-auto gap-x-14 lg:flex lg:max-w-none lg:items-center">
+
+        <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
+          <Text
+            title1="Voyage"
+            title2="Your Journey, Our Passion"
+            text="We believe in the power of exploration, the thrill of adventure, and the magic of discovering new horizons. Join us as we embark on a voyage like no other, where every step is a story, and every moment is an unforgettable memory. Let's make your journey extraordinary, together!" />
+
+          <div className="mt-10 flex items-center gap-x-6">
+            <AllLink
+              to="/destination"
+              className="text-sm font-semibold leading-6 text-gray-900"
+            >
+              Get Started <span aria-hidden="true">→</span>
                   <AllLink 
                       to="/destination" 
                       className="text-sm font-semibold leading-6 text-gray-900"
