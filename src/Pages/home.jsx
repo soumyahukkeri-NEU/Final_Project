@@ -4,6 +4,7 @@ import AllLink from "../components/link";
 import Indeximage from "../components/indeximage";
 import Footer from "../components/footer";
 import Maindestinationcard from "../components/maindestinationcard";
+import Home_text from "../components/Home_text";
 
 const Home = () => {
   return (
@@ -53,6 +54,8 @@ const Home = () => {
         </div>
       </div>
     </div>
+
+    <Home_text></Home_text>
 
     <div className="relative bg-gray-50 px-6 pb-20 pt-16 lg:px-8 lg:pb-28 lg:pt-24">
       <div className="absolute inset-0">
