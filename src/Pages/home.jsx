@@ -3,6 +3,7 @@ import Text from "../components/text";
 import AllLink from "../components/link";
 import Indeximage from "../components/indeximage";
 import Footer from "../components/footer";
+import Maindestinationcard from "../components/maindestinationcard";
 
 const Home = () => {
   return (
@@ -51,6 +52,50 @@ const Home = () => {
               
         </div>
       </div>
+    </div>
+
+    <div className="relative bg-gray-50 px-6 pb-20 pt-16 lg:px-8 lg:pb-28 lg:pt-24">
+      <div className="absolute inset-0">
+        <div className="h-1/3 bg-white sm:h-2/3"></div>
+      </div>
+      <div className="relative mx-auto max-w-7xl">
+        <div className="text-center">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Find Your Next Travel Tale</h2>
+          <p className="mx-auto mt-3 max-w-4xl text-xl text-gray-500 sm:mt-4">
+            Discover a world of enchanting destinations and captivating experiences with us. Dive into a realm of picturesque landscapes, rich cultures, and thrilling adventures that will leave you with unforgettable stories to tell. Your next travel tale begins here.
+          </p>
+          <br />
+        </div>
+        <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
+          {/* Destination 1 */}
+          <Maindestinationcard
+              imageSrc="/assets/main_attraction_1.jpg"
+              altText="Picture of Maldives"
+              title="Maldives"
+              description="In the Maldives, you'll discover a realm of unmatched opulence where pristine white-sand beaches beckon beneath endless blue skies. This paradisiacal haven also unveils a captivating underwater world, offering a perfect setting for an extraordinary vacation that will remain etched in your memories forever."
+              link="/destination/maldives"
+          ></Maindestinationcard>
+
+          {/* Destination 2 */}
+          <Maindestinationcard
+              imageSrc="/assets/main_attraction_2.jpg"
+              altText="Picture of Icaeland"
+              title="Iceland"
+              description="Iceland, the land of fire and ice, is a magical destination that will leave you spellbound with its dramatic landscapes, majestic glaciers, and awe-inspiring natural wonders. Explore the land of the midnight sun and the northern lights, and discover a world of enchanting beauty and adventure."
+              link="/destination/iceland"
+          ></Maindestinationcard>
+
+          {/* Destination 3 */}
+          <Maindestinationcard
+              imageSrc="/assets/main_attraction_3.jpg"
+              altText="Picture of Paris"
+              title="Paris"
+              description="Paris, the City of Lights, is a dream destination that will sweep you off your feet with its timeless beauty, rich history, and romantic charm. From the iconic Eiffel Tower to the magnificent Louvre, Paris is a treasure trove of enchanting sights and experiences that will leave you mesmerized."
+              link="/destination/paris"
+          ></Maindestinationcard>
+          </div>
+        </div>
+      
     </div>
 
     <div>
