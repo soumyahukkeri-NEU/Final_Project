@@ -5,6 +5,7 @@ import Indeximage from "../components/indeximage";
 import Footer from "../components/footer";
 import Maindestinationcard from "../components/maindestinationcard";
 import Home_text from "../components/Home_text";
+import TestimonialContent from "../components/TestimonialContent";
 
 const Home = () => {
   return (
@@ -100,6 +101,50 @@ const Home = () => {
         </div>
       
     </div>
+
+    <div className="relative overflow-hidden bg-white">
+      {/* Decorative background image and gradient */}
+      <div aria-hidden="true" className="absolute inset-0">
+        <div className="absolute inset-0 mx-auto max-w-full overflow-hidden xl:px-8">
+          <img src="/assets/bg.jpg" alt="" className="h-full w-full object-cover object-center" />
+        </div>
+        <div className="absolute inset-0 bg-white bg-opacity-40"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-white via-white"></div>
+      </div>
+      <br /><br />
+
+      {/* Testimonials */}
+      <section aria-labelledby="testimonial-heading" className="relative mx-auto max-w-6xl px-4 py-24 sm:px-6 lg:px-8 lg:py-32">
+        <div className="mx-auto max-w-2xl lg:max-w-none">
+          <h2 id="testimonial-heading" className="text-2xl font-bold tracking-tight text-gray-900">What are people saying?</h2>
+
+          <div className="mt-16 space-y-16 lg:grid lg:grid-cols-3 lg:gap-x-9 lg:space-y-0">
+            {/* Testimonial 1 */}
+            <TestimonialContent
+                content="Our trip to Maldives was a dream come true. The luxury overwater bungalows, the crystal-clear waters, and vibrant marine life exceeded our expectations. We'll cherish the memories of snorkeling with turtles and witnessing stunning sunsets forever."
+                author="Emily Anderson, New York City, USA"
+            />
+
+
+            {/* Testimonial 2 */}
+            <TestimonialContent
+                content="Iceland's rugged landscapes and stunning waterfalls left us in awe. The experience of witnessing the Northern Lights dancing across the Arctic sky was truly magical. Our journey through this enchanting country was a breathtaking adventure"
+                author="John Smith, London, UK"
+            />
+            
+
+            {/* Testimonial 3 */}
+            <TestimonialContent
+                content="Paris, with its romantic ambiance and iconic landmarks, was everything we imagined. The Louvre, Eiffel Tower, and delectable pastries made our stay unforgettable. Exploring the charming streets of Montmartre and indulging in French cuisine were highlights of our trip."
+                author="Sarah Jones, Paris, France"
+            />
+            
+          </div>
+        </div>
+      </section>
+    </div>
+
+
 
     <div>
       <Footer></Footer>
