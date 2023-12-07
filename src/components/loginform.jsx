@@ -58,6 +58,10 @@ const LoginForm = () => {
                 <button type="submit" className="flex w-full justify-center rounded-md bg-blue-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Login</button>
               </div>
             </form>
+            <p class="mt-10 text-center text-sm text-gray-500">
+              Not a member?
+              <a href="#" class="font-semibold leading-6 text-blue-600 hover:text-blue-500">Sign up for free</a>
+            </p>
           </div>
         </div>
       );
