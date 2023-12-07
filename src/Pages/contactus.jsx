@@ -46,7 +46,7 @@ const ContactUs = () => {
           </div>
         </div>
 
-        <br></br>
+        <br></br><br></br>
           <div class="relative">
             <div class="absolute inset-0 flex items-center" aria-hidden="true">
               <div class="w-full border-t border-gray-300"></div>
@@ -55,7 +55,7 @@ const ContactUs = () => {
               <span class="bg-white px-3 text-lg font-semibold leading-6 text-gray-900">Didnt find what you're looking for?</span>
             </div>
           </div>
-        <br></br>
+        <br></br><br></br>
         <ContactUsInfo></ContactUsInfo>
         <Footer></Footer>
       </div>
