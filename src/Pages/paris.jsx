@@ -4,13 +4,7 @@ import HeroBanner from "../components/HeroBanner";
 const Paris = () => {
     return (
       <div>
-        <div>
-        <HeroBanner
-          imageSrc="paris1.jpg"
-          title="Explore Paris"
-          subtitle="with Voyage"
-        />
-        </div>
+        
         <div class="mx-auto max-w-3xl text-center">
           <Text 
                 title2="A Parisian Extravaganza: Explore the City of Love"
