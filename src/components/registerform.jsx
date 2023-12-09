@@ -12,7 +12,7 @@ const RegisterForm = () => {
     city: '',
     address: '',
     postalcode: '',
-    tourpackage: ''
+    tourpackage: 'Choose Tour Package'
   });
 
   const [submittedData, setSubmittedData] = useState(null);
@@ -39,7 +39,7 @@ const RegisterForm = () => {
       city: '',
       address: '',
       postalcode: '',
-      tourpackage: ''
+      tourpackage: 'Choose Tour Package'
         });
     };
   
