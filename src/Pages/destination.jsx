@@ -1,12 +1,20 @@
 import Text from "../components/text";
 import AllLink from "../components/link";
 import Footer from "../components/footer";
+import HeroBanner from "../components/HeroBanner";
 
 
 
 const Destination = () => {
     return (
       <div> 
+        <div>
+          <HeroBanner
+            imageSrc="public/assets/maldives1.jpg"
+            title="Explore the World"
+            subtitle="with Voyage"
+          />
+        </div>
         
         <div className="mx-auto max-w-3xl text-center">
           <br></br>

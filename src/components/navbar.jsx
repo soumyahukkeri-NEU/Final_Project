@@ -12,7 +12,7 @@ const Navbar = ({ currentPageLink }) => {
             <div className="flex">
               <div className="flex flex-shrink-0 items-center mx-auto mr-40">
                 <Link to="/">
-                  <img className="h-48 w-auto" src="public/assets/logo.png" alt="Voyage Logo"/>
+                  <img className="h-48 w-auto" src="/assets/logo.png" alt="Voyage Logo"/>
                 </Link>
               </div>
               <div className="hidden md:flex md:space-x-8 ">
