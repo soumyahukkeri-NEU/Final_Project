@@ -9,7 +9,7 @@ const Maldives = () => {
         <div>
         <HeroBanner
           imageSrc="/assets/maldives1.jpg"
-          title="Explore the World"
+          title="Explore Maldives"
           subtitle="with Voyage"
         />
         </div>
