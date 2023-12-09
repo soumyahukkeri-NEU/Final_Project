@@ -23,7 +23,7 @@ const App = () => {
       <Navbar currentPageLink={location.pathname}></Navbar>
       <br></br>
       <Banner></Banner>
-      
+      <br></br>
 
       <Routes>
         <Route path="/" element={<Home />} />

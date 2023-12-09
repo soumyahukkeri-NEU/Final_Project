@@ -2,10 +2,14 @@ import Text from "../components/text";
 import AllLink from "../components/link";
 import Footer from "../components/footer";
 
+
+
 const Destination = () => {
     return (
       <div> 
+        
         <div className="mx-auto max-w-3xl text-center">
+          <br></br>
           <Text title2="Discover the World's Most Enchanting Destinations"
                 text="At Voyage, we're passionate about helping you discover the world's wonders, and our collection of top destinations is your gateway to unforgettable adventures. Whether you're seeking pristine beaches, cultural treasures, or thrilling experiences, our selection includes destinations that cater to every traveler's dreams.Browse through our featured destinations, discover the highlights, and imagine yourself strolling along the white-sand beaches of the Maldives, witnessing the Northern Lights in Iceland, or savoring delicious pastries in Paris. These destinations offer an array of experiences that will leave you with lasting memories. Ready to start your journey? Explore our top destinations and begin planning your next adventure today!"
           />
