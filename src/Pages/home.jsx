@@ -6,6 +6,7 @@ import Footer from "../components/footer";
 import Maindestinationcard from "../components/maindestinationcard";
 import Home_text from "../components/Home_text";
 import TestimonialContent from "../components/TestimonialContent";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -21,8 +22,8 @@ const Home = () => {
               <p className="relative mt-4 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
                 We believe in the power of exploration, the thrill of adventure, and the magic of discovering new horizons. Join us as we embark on a voyage like no other, where every step is a story, and every moment is an unforgettable memory. Let's make your journey extraordinary, together!
               </p>
-              <div className="mt-4 flex items-center gap-x-6"> {/* Adjusted the margin-top here */}
-                <AllLink to="/destination" className="text-sm font-semibold leading-6 text-gray-900">Get Started <span aria-hidden="true">→</span></AllLink>
+              <div className="mt-4 flex items-center gap-x-6"> 
+                <Link to="/destination" target='_blank' className="text-sm font-semibold leading-6 text-gray-900">Get Started <span aria-hidden="true">→</span></Link>
               </div>
             </div>
             <div className="mt-4 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-0 lg:mt-0 lg:pl-0"> {/* Adjusted the margin-top here */}

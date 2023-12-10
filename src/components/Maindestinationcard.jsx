@@ -16,7 +16,7 @@ const Maindestinationcard = ({ imageSrc, altText, title, description, link}) => 
         <div className="mt-6 flex items-center">
           <div className="flex-shrink-0">
             <p className="text-lg font-medium text-blue-600">
-              <Link to={link}>Learn more</Link>
+              <Link to={link} target='_blank'>Learn more</Link>
             </p>
           </div>
         </div>
