@@ -6,6 +6,14 @@ import ContactText from "../components/contacttext";
 const ContactUs = () => {
     return (
       <div>
+        <div class="mx-auto mt-32 max-w-7xl sm:mt-10 sm:px-6 lg:px-8">
+          <div class="relative overflow-hidden bg-gradient-to-r from-blue-300 to-blue-500 px-6 py-12 text-center shadow-2xl sm:rounded-3xl sm:px-16 text-white">
+            <h2 class="mx-52 text-4xl font-bold tracking-tight transition-transform transform hover:scale-105">Your journey begins here, and we're here to assist you every step of the way.</h2>
+            <br></br>
+            <h3 class="mx-52 text-2xl  tracking-tight transition-transform transform hover:scale-105">Reach out to us and let's start planning your next adventure together.</h3>
+          </div>
+        </div>
+
         <ContactForm></ContactForm>
 
         <div className="mx-auto max-w-7xl px-6 py-8 sm:py-12 lg:px-8">

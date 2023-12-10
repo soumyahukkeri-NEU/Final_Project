@@ -7,19 +7,19 @@ const Footer = () => {
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
         <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
           <div className="pb-6">
-            <Link to="/destination" class="text-lg leading-6 text-white hover:text-gray-900">Top Destinations</Link>
+            <Link to="/destination" target='_blank' class="text-lg leading-6 text-white hover:text-gray-900">Top Destinations</Link>
           </div>
           <div className="pb-6">
-            <Link to="/packages" class="text-lg leading-6 text-white hover:text-gray-900">Tour Packages</Link>
+            <Link to="/packages" target='_blank'  class="text-lg leading-6 text-white hover:text-gray-900">Tour Packages</Link>
           </div>
           <div className="pb-6">
-            <Link to="/register" class="text-lg leading-6 text-white hover:text-gray-900">Register</Link>
+            <Link to="/register" target='_blank'  class="text-lg leading-6 text-white hover:text-gray-900">Register</Link>
           </div>
           <div className="pb-6">
-            <Link to="/contactus" class="text-lg leading-6 text-white hover:text-gray-900">Contact Us</Link>
+            <Link to="/contactus" target='_blank'  class="text-lg leading-6 text-white hover:text-gray-900">Contact Us</Link>
           </div>
           <div className="pb-6">
-            <Link to="/login" class="text-lg leading-6 text-white hover:text-gray-900">Login</Link>
+            <Link to="/login" target='_blank'  class="text-lg leading-6 text-white hover:text-gray-900">Login</Link>
           </div>         
         </nav>
         <div className="mt-10 flex justify-center space-x-10">
